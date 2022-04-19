@@ -6,6 +6,7 @@ header {
 	top: 0;
 	background-color: #ffd200;
 	box-shadow: 0 3px 6px #5e5050;
+	z-index: 1;
 }
 
 header .header__container {

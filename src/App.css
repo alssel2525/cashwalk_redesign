@@ -1,0 +1,53 @@
+.main__visual {
+	width: 100vw;
+	min-width: 1320px;
+	height: 100vh;
+	position: relative;
+	display: inline-block; /* 마진 상쇄 해결 */
+	background-color: #ffd200;
+	background-image: url("images/visual_background.png");
+	background-size: 1400px;
+	background-repeat: no-repeat;
+	background-position: 300px 50px;
+}
+
+.main__visual .main__visual__container {
+	width: 1280px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.logo {
+	margin-top: 250px;
+}
+
+.text {
+	margin-top: 15px;
+	font-size: 40px;
+	font-weight: 300;
+}
+
+.link_container {
+	margin-top: 120px;
+	display: flex;
+	flex-direction: row;
+}
+
+.link_container > *:not(:first-child) {
+	margin-left: 40px;
+}
+
+.main__visual__arrow_down {
+	width: max-content;
+	margin: 0 auto;
+	display: block;
+	position: absolute;
+	bottom: 70px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	transition: 0.5s;
+}
+.main__visual__arrow_down:hover {
+	bottom: 90px;
+}
